@@ -1,10 +1,10 @@
-let nota1 = prompt("Digite a primeira nota")
-nota1 = eval (nota1)
-let nota2 = prompt("Digite a segunda nota")
-nota2 = eval (nota2)
-let nota3 = prompt("Digite a terceira nota")
-nota3 = eval (nota3)
-let nota4 = prompt("Digite a quarta nota")
+let nota1 = parseFloat (prompt("Digite a primeira nota"))
+
+let nota2 = parseFloat (prompt("Digite a segunda nota"))
+
+let nota3 = parseFloat (prompt("Digite a terceira nota"))
+
+let nota4 = parseFloat (prompt("Digite a quarta nota"))
 nota4 = eval (nota4)
 
 let media = (nota1 + nota2 + nota3 + nota4)/4
