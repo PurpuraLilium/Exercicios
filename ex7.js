@@ -1,5 +1,5 @@
-let price = prompt("Digite o valor da compra:")
-price = eval (price)
+let price = parseFloat (prompt("Digite o valor da compra:"))
+
 
 dez = price  * 0.1
 vinte = price * 0.2
