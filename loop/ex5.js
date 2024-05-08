@@ -3,7 +3,11 @@
 num1 = 0
 num2 = 1
 
-for (let cont = 1 ; cont <=10 ; cont++){
+console.log(num1)
+console.log(num2)
+
+
+for (let cont = 1 ; cont <=8 ; cont++){
     result = num1+num2
 
     num1=num2
